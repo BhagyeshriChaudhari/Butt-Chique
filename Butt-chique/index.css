@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+.container{
+    padding:10px 60px;
+}
+footer{
+    width: 100%;
+    padding: 20px 0;
+    background: rgb(236, 226, 206);
+}
+footer .des,footer .help,footer .order, footer .about {
+    padding: 5px;
+    flex: 1 1 20%;
+    background-color:rgb(236, 226, 206);
+}
+
+footer .des .social .fab{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    width: 2rem;height: 2rem;
+   
+    color:gray;
+    text-align: center;
+}
+footer h2{
+    color:gray;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+footer li{
+    color:gray;
+    list-style: none;
+    padding: 5px 0;
+    text-transform: capitalize;
+    text-align: left;
+    transition: .3s;
+}
+footer li:hover{
+    text-decoration: underline;cursor: pointer;
+}
+footer .contact li:hover{
+    text-decoration: none;
+}
+footer .contact li span{
+    font-weight: 700;
+    font-size: 1rem;
+}
+footer  .copy{
+    width: 100%;
+    padding: 10px 0;
+    text-transform: capitalize;
+    text-align: center;
+    color:gray;
+}
+footer  .copy span{
+    color:rgb(26, 2, 2);
+    font-weight: 600;
+}
+footer  .copy hr{
+    margin-bottom: 5px;
+}
+
+/* shapwaer */
+button {cursor:pointer; 
+        padding: 3px 4px;
+        background-color:white;
+        border:none;
+       
+}
+.number{
+    display: flex;
+    gap: 13px;
+}
+.checked{
+    color:orange;
+}

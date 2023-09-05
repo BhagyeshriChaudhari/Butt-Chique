@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodytape</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    #p{
+        background-color:rgb(26,2,2);
+        color:white;
+    }
+   #p:hover{
+    background-color:white;
+    color:rgb(26,2,2);
+    font-weight: bold;
+    border:2px solid rgb(26,2,2);
+    box-shadow: 4px 4px 4px rgb(26,2,2);
+   }
+</style>
+<script>
+  window.onload = function(){
+       document.querySelector('.main-div').style.display="block";
+       
+   }
+</script>
+    
+</head>
+<body>
+  <div class="main-div">
+    <nav style="background-color: rgb(251, 235, 252); padding: 10px;" >
+        <div class="container">
+          <a class="navbar-brand" href="#"  style="background-color: rgb(251, 235, 252); text-align:center;">PACKAGED RESPONSIBLY|WORLDWIDE SHIPPING</a>
+        </div>
+      </nav>
+    <div>
+        <div class="container">
+          
+           <div class="container-fluid" style="display: flex; justify-content: space-between;">
+                <div style="font-weight:bold ;font-size: 20px;"> <a class="navbar-brand"  style="font-size: 10px;" href="#">Find My size</a>
+                    <a class="navbar-brand"  style="font-size: 10px;" href="#" style="padding: 10px;">Our Story</a>
+                </div>
+                <div><img src="logo.png"  width="90px" height="70px"alt="" ></div>
+                <div> <i class="fa-solid fa-person" style="font-size: 30px"></i>
+                    <i class="fa-solid fa-cart-shopping" style="font-size: 27px;"></i>
+                </div>
+          </div>
+        </div>
+        
+            <nav class="navbar " style="border-bottom: 2px groove gray;">
+                <div class="container-fluid">
+                  <a class="navbar-brand"  style="font-size: 10px;" href="#">Shop</a>
+                  <a class="navbar-brand"  style="font-size: 10px;" href="#">Shapewaer</a>
+                  <a class="navbar-brand" style="font-size: 10px;"  href="#">Body Tape</a>
+                  <a class="navbar-brand"  style="font-size: 10px;" href="#">Pasties</a>
+                  <a class="navbar-brand" style="font-size: 10px;"  href="#">Underwear</a> 
+                  <a class="navbar-brand" style="font-size: 10px;" href="#">Tank Top</a>
+                </div>
+              </nav>
+        
+    </div>
+    <!-- product -->
+    <div class="container">
+        
+        <div class="row justify-content-center" >
+            <div class="col col-lg-4" >
+               <img src="./pasties-coco.webp" width="400px" height="500px" alt="">
+            </div>
+           
+            <div class="col col-lg-4">
+                <div class="container">
+                    <div class="row">
+                        <h1> Pasties</h1>
+                        <p>&#8377 999 - &#8377 1899</p>
+                      
+                      
+                    </div>
+                    <div class="row">
+                      <div class="col">Color</div>
+                      <div class="col col-lg-3"> <img src="./color.png" width="70px" alt=""></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Quantity</div>
+                        <div class="col col-lg-3">
+                            <div class="number">
+                                <button onclick="increment()">+</button>
+                                 <h6 id="count" style="padding-top: 8px;"></h6>
+                                <button onclick="decrement()">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">Rating</div>
+                      <div class="col col-lg-4"><span class="fa fa-star checked"></span><span  class="fa fa-star checked"></span><span  class="fa fa-star checked"></span><span  class="fa fa-star checked"></span><span  class="fa fa-star "></span></div>
+                    </div>
+
+                    <div class="row" ><button id="p">Add to Cart</button></div>
+
+                    <div>
+                      <h2>Review</h2>
+                       <div style="border: 1px solid black; padding: 10px;">
+                          <h6 style="padding-left: 10px;">Ardell <p>USA</p></h6>
+                          <p style="padding-left: 10px;">I love these clothes!! I love the fits!!! I love the price!!! I am on my 3 order from you!! My order was here within a week.</p>
+                          <h6 style="padding-left: 10px;">LESLIE <p>lowa</p></h6>
+                          <p style="padding-left: 10px;">Just received my order &am thrilled with everything I Purchased ! and the shipping was awesome it took 3 days best yet ! i will shop again thanks you </p>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+           
+            
+        </div>
+    </div>
+    <!-- similar product -->
+    <div style="text-align: center;"><h1>You May Also Like</h1></div>
+    <div style="margin-top: 10px ;padding: 0px 100px;">
+        <div class="card-group">
+            <div class="card" style=" border: none;" >
+              <img src="./bt.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><img src="./color.png" alt=""></h5>
+                <p class="card-text"><h6>BodyTape</h6></p>
+                <p class="card-text"><small class="text-body-secondary">&#8377 1,299</small></p>
+              </div>
+            </div>
+            <div class="card" style=" border: none;">
+              <img src="./Optimized-Untitled-design-16-min-1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><img src="./color.png" alt=""></h5>
+                <p class="card-text"><h6>Pasties</h6></p>
+                <p class="card-text"><small class="text-body-secondary">&#8377 999</small></p>
+              </div>
+            </div>
+            <div class="card" style=" border: none;">
+              <img src="./Optimized-Untitled-design-10-2-min.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><img src="./color.png" alt=""></h5>
+                <p class="card-text"><h6>Body Tape</h6></p>
+                <p class="card-text"><small class="text-body-secondary">&#8377 1,299</small></p>
+              </div>
+            </div>
+        </div>   
+    </div>
+    
+    <!-- footer -->
+    <div class="card text-center " style="background-color: rgb(236, 226, 206);border: none;">
+    
+        <div class="card-body">
+          <h5 class="card-title">Be in the know</h5>
+          <p class="card-text">Sign up for arrivals ,offer abd more !</p>
+           <input type="email" placeholder="Enter Your E-Mail" style="width: 30%;">
+           <button style=" border-radius: 20%;padding: 7px;background-color: rgb(26, 2, 2);color:azure;text-align: center;">Submit</button>
+        </div>
+    </div>
+        <footer>
+            <div class="container">
+                <div class="field" style="flex-wrap: wrap;">
+                  
+                     <div style="display: flex;">
+                            <div class="help">
+                            <h2>Help</h2>
+                            <li>Find My Size</li>
+                            <li>FAQs</li>
+                            <li>Privacy policy</li>
+                            <li>Term & Condition</li>
+                        </div>
+                        <div class="order">
+                            <h2>My Orders</h2>
+                            <li>Track Your Order</li>
+                            <li>Shipping Policy</li>
+                            <li>Return & Exchange</li>
+                           
+                        </div>
+                        <div class="about">
+                            <h2>About</h2>
+                            <li>Our Story</li>
+                            <li>Career</li>
+                            <li>Become An Ambassador</li>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="des">
+                    <h2>Contact Us</h2>
+                    <div class="social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>                  
+                </div >
+                <div class="copy">
+                    <hr>
+                    @2023 All Right Reserved|Powered By<span> Bhagyeshri Chaudhari</span> 
+                </div>
+            </div>
+        </footer>
+
+  </div>
+
+
+    <script >
+        let data=0
+        document.getElementById("count").innerText=data;
+        function increment(){
+          data=data+1;
+          document.getElementById("count").innerHTML=data;
+            
+        }
+        function decrement(){
+            data=data-1;
+          document.getElementById("count").innerHTML=data;
+            
+        }
+    </script>
+</body>
+</html>
